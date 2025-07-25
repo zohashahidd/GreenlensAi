@@ -32,7 +32,7 @@ def build_vector_db(folder_path, db_path):
     return db
 
 # Load vector DB
-db_path = "backend/green_db"
+db_path = "green_db"
 folder_path = "reports"
 db = build_vector_db(folder_path, db_path)
 
